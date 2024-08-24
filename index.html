@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Notifications page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <div class="Main-heading">
+          <h1>Notifications</h1>
+          <h2 class="unread">3</h2>
+        </div>
+        <p class="text mark-all">Mark all as read</p>
+      </div>
+    </header>
+    <section class="content-section">
+      <div class="container content-container">
+        <div class="notifications">
+          <article class="notifi">
+            <img
+              src="https://res.cloudinary.com/dvydugv8v/image/upload/v1695197977/notifications-page/avatar-mark-webber_aprud3.webp"
+              alt=""
+              class="profile-image"
+            />
+            <div class="details">
+              <p class="text">
+                <b>Mark Webber</b> reacted to your recent post
+                <b class="post">My first tournament today! </b
+                ><span class="dot"></span>
+              </p>
+
+              <p class="time">1m ago</p>
+            </div>
+          </article>
+          <article class="notifi">
+            <img
+              src="https://res.cloudinary.com/dvydugv8v/image/upload/v1695197977/notifications-page/avatar-angela-gray_klrmao.webp"
+              alt=""
+              class="profile-image"
+            />
+            <div class="details">
+              <p class="text">
+                <b>Angela Gray</b> followed you <span class="dot"></span>
+              </p>
+              <p class="time">5m ago</p>
+            </div>
+          </article>
+          <article class="notifi">
+            <img
+              src="https://res.cloudinary.com/dvydugv8v/image/upload/v1695197977/notifications-page/avatar-jacob-thompson_tnaysl.webp"
+              alt=""
+              class="profile-image"
+            />
+            <div class="details">
+              <p class="text">
+                <b>Jacob Thompson</b> has joined your group
+                <b class="group">Chess Club </b><span class="dot"></span>
+              </p>
+              <p class="time">1 day ago</p>
+            </div>
+          </article>
+          <article class="notifi active">
+            <img
+              src="https://res.cloudinary.com/dvydugv8v/image/upload/v1695197977/notifications-page/avatar-rizky-hasanuddin_lxa8ic.webp"
+              alt=""
+              class="profile-image"
+            />
+            <div class="details">
+              <p class="text">
+                <b>Rizky Hasanuddin</b> sent you a private message
+                <span class="dot" style="display: none"></span>
+              </p>
+              <p class="time">5 days ago</p>
+              <div class="message">
+                <p class="text">
+                  Hello, thanks for setting up the Chess Club. I've been a
+                  member for a few weeks now and I'm already having lots of fun
+                  and improving my game.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="notifi active">
+            <img
+              src="https://res.cloudinary.com/dvydugv8v/image/upload/v1695197978/notifications-page/avatar-kimberly-smith_euqpf8.webp"
+              alt=""
+              class="profile-image"
+            />
+            <div class="pic-post">
+              <div class="details">
+                <p class="text">
+                  <b>Kimberly Smith</b> commented on your picture
+                  <span class="dot" style="display: none"></span>
+                </p>
+                <p class="time">1 week ago</p>
+              </div>
+              <div>
+                <img
+                  src="https://res.cloudinary.com/dvydugv8v/image/upload/v1695197978/notifications-page/image-chess_rjpqnb.webp"
+                  class="profile-image kim"
+                />
+              </div>
+            </div>
+          </article>
+          <article class="notifi active">
+            <img
+              src="https://res.cloudinary.com/dvydugv8v/image/upload/v1695197977/notifications-page/avatar-nathan-peterson_ks8iey.webp"
+              alt=""
+              class="profile-image"
+            />
+            <div class="details">
+              <p class="text">
+                <b>Nathan Peterson</b> reacted to your recent post
+                <b class="post"
+                  >5 end-game strategies to increase your win rate</b
+                >
+                <span class="dot" style="display: none"></span>
+              </p>
+              <p class="time">2 weeks ago</p>
+            </div>
+          </article>
+          <article class="notifi active">
+            <img
+              src="https://res.cloudinary.com/dvydugv8v/image/upload/v1695197977/notifications-page/avatar-anna-kim_q1hvvt.webp"
+              alt=""
+              class="profile-image"
+            />
+            <div class="details">
+              <p class="text">
+                <b>Anna Kim</b> left the group <b class="group">Chess Club </b>
+                <span class="dot" style="display: none"></span>
+              </p>
+              <p class="time">2 weeks ago</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
